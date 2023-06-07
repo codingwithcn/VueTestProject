@@ -1,8 +1,9 @@
 export default interface TimeSheet {
-    id: string;
-    startTimestamp: number;
-    endTimestamp: number;
-    duration: number;
-    dateCreatedTimestamp: number;
-    dateModifiedTimestamp: number;
+    id: string | null ;
+    startTimestamp: number | null ;
+    endTimestamp: number | null ;
+    duration: number | null ;
+    dateCreatedTimestamp: number | null ;
+    dateModifiedTimestamp: number | null ;
+    finished: boolean | null;
 }
